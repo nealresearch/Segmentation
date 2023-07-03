@@ -5,8 +5,6 @@ library(dplyr)
 library(RANN)
 library(terra)
 library(sf)
-library(ggplot2)
-library(EBImage)
 
 las <- readLAS("M:\\lidar\\Test\\cloud_compare\\anHavel-Cloud.las")
 st_crs(las) <- 32633
